@@ -1,5 +1,5 @@
-# import os
-# from datetime import datetime
+import os
+from datetime import datetime
 
 # from flask import Flask, abort, request
 
@@ -214,5 +214,5 @@ def handle_message(event):
 if __name__ == "__main__":
     global reportData
     reportData = {}
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+#     port = int(os.environ.get('PORT', 5000))
+#     app.run(host='0.0.0.0', port=port)
